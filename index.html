@@ -20,7 +20,7 @@
 
     <script>
         // js fetch api to get app ideas from appIdea.json and display them in the ul
-        fetch('appIdeas.https://haydenknight88.github.io/improved-octo-fetchAPI/appIdeas.json').then(response => response.json())
+        fetch('https://haydenknight88.github.io/improved-octo-fetchAPI/appIdeas.json').then(response => response.json())
             .then(data => {
                 const appIdeasList = document.getElementById('appIdeas');
                 appIdeasList.innerHTML = ''; // Clear existing list items
