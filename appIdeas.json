@@ -1,4 +1,4 @@
-[
+{ "projects" : [
     {
         "name": "StudyBuddy",
         "description": "A spaced-repetition flashcard app with collaborative decks, study stats, and simple scheduling for class review sessions.",
@@ -403,3 +403,4 @@
         ]
     }
 ]
+}
